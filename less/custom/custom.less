@@ -1,15 +1,26 @@
 @TopColor: rgba(0,0,0, 0.8);
 @BoxNumberColor: #b82c2b;
 @BoxNumberColorRgba: rgba(184, 44, 43, 0.4);
+@BoderRightContactColor:  darken(white, 15%);
+@BackgroundSectionColor: darken(white, 5%);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin,latin-ext);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lora&subset=latin,latin-ext);
+// < --- GENERAL RULES --->
 html {
   font-size: 62.5%;
 }
 
+p{
+  font-family: 'Lora', serif;
+}
+h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+// < --- GENERAL RULES END--->
 #top {
   width: 100%;
-  height: 45rem;
+  height: 55rem;
   background-image: url('../img/interview22.jpg');
   background-position: top left;
   background-size: cover;
@@ -53,17 +64,15 @@ html {
     .topNumberPos {
       margin: 0 0 0 1rem;
       padding: 0 0 1rem 0;
-  
       line-height: 2.5rem;
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       color:white;
-
     }
   }
 
   .topAdvice {
-    margin-top: 18rem;
-    width: 25rem;
+    margin-top: 27rem;
+    width: 27rem;
     padding: 1rem 0 1rem 0;
     background-color: @BoxNumberColorRgba;
     -webkit-border-radius: 0 4rem 4rem 0;
@@ -73,7 +82,7 @@ html {
       font-family: 'Slabo 27px', serif;
       margin-left: 2.5rem;
       letter-spacing: 1px;
-      font-size: 2rem;
+      font-size: 2.1rem;
       color: black;
     }
     .btn {
@@ -81,11 +90,29 @@ html {
       transition: 0.2s;
       margin: 0 0 0 5rem;
       border-radius: 4rem;
-      padding: 1rem 3rem;
+      padding: 0.8rem 3rem;
       background-color: rgba(255, 255, 255, 0.5);
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -ms-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      border: .2rem solid transparent;
+      &:hover {
+        border: .2rem solid rgba(128, 128, 128, 0.6);
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+      &:focus {
+        outline: none;
+      }
       p {
         margin: 0;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         padding: 0;
         color: black;
       }
@@ -93,6 +120,126 @@ html {
   }//topAdvice
 }//top
 
+
+.contact {
+  background-color: @BackgroundSectionColor;
+}
+
+.contactReach, .contactAddress {
+  margin-top: 1.5rem;
+  border-right: 1px solid @BoderRightContactColor;
+  h3 {
+    margin-bottom: 2.5rem;
+  }
+}
+.contactReach p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.contactAddress {
+  h4 {
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.6rem;
+  }
+  address p {
+    font-size: 1.6rem;
+    margin: 0 0 0.2rem 0;
+    padding: 0;
+    &:nth-child(3) {
+    margin-top: 1.5rem;
+    }
+  }
+}
+
+.contactForm {
+  margin-top: 3.5rem;
+  label {
+    display: block;
+    /* ustawiamy by label rozpoczynał się od nowej linii*/
+    margin-bottom: 5px;
+    /* dodajemy margines dolny */
+    font-weight: bold;
+    /* pogrubiamy czcionkę */
+    text-transform: uppercase;
+    /* zamieniamy wszystkie litery na duże */
+    font-size: 1.5rem;
+    /* ustawiamy wielkość czcionki */
+    color: black;
+    /* ustawiamy kolor czcionki */
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+.contactForm textarea {
+  height: 10rem;
+  width: 100%;
+  border: 2px solid #ccc;
+  /* padding-bottom: 15px; */
+}
+.contactForm input {
+  padding: 5px;
+  /* dodajemy margines wewnątrz naszego pola */
+  border-radius: 3px;
+  /* dodajemy zaokraglone rogi */
+  border: 2px solid #ccc;
+  /* dodajemy obramowanie */
+  margin-bottom: 1.5rem;
+  /* dodajemy margines dolny */
+  width: 100%;
+  /* ustalamy szerokość */
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.6rem;
+
+}
+.contactForm input#submit {
+  width: 100%;
+  /* ustalamy szerokość */
+  cursor: pointer;
+  /* zmieniamy kursor */
+  margin-bottom: 40px;
+  /* resetujemy margines dolny */
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+}
+
+
+
+
+.mapText {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mapBorder {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+.footerByColor {
+  background-color: @BackgroundSectionColor;
+}
+
+.footerBy {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  color:black;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.footerBySocial {
+    margin-right: .5rem;
+    opacity: 0.6;
+    &:hover {
+      opacity: 1;
+    }
+
+}
 
 
 
