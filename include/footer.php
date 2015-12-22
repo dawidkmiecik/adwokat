@@ -1,18 +1,21 @@
-		<section class="footerByColor">
-			<div class="container">
+		<footer class="footerSection">
+			<div class="container footerContainer">
 				<div class="row">
-					<div class="col-md-6">
-						<p><a class="footerBy" href="http://feniksdesign.pl/">Copyright 2015 by Feniks Design.</a></p>
-						<a href=""></a>
+					<div class="col-md-5 footerAddress">
+						<h4>Kancelaria Prawna
+						<br />
+						Radca Prawny Marlena Żurawska
+						</h4>
+						<address>
+							<p>ul. Wolfkego 2</p>
+							<p>54-701 Wrocław</p>
+							<p>tel. 71 351 08 18</p>
+							<p>kontakt@marlenażurawska.pl</p>
+						</address>
 					</div>
-					<div class="col-md-6 pull-right">
-						<a href="https://plus.google.com/u/0/107086295791785063741/posts"><img class="footerBySocial pull-right" src="img/google.png" alt=""></a>
-						<a href="https://www.facebook.com/FeniksDesignPoznan"><img class="footerBySocial pull-right" src="img/facebook.png" alt=""></a>
-
+					<div class="col-md-7">
+						<img src="img/kirp.png" class="img-responsive footerKirp" alt="">
 					</div>
-				</div><!-- row -->
-			</div><!-- container -->
-		</section>
-		<script src='js/css3-animate-it.js'></script>
-	</body>
-</html>
+				</div>
+			</div>
+		</footer>

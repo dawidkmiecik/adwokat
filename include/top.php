@@ -28,8 +28,8 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Start</a></li>
-							<li><a href="#">Oferta</a></li>
+							<li><a href="index.php">Start</a></li>
+							<li><a href="#">Zakres usług</a></li>
 							<li><a href="">Porady</a></li>
 							<li><a href="#">O nas</a></li>
 							<li><a href="contact.php">Kontakt</a></li>
@@ -37,11 +37,16 @@
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
-			<div class="animatedParent">
-			<article class="topAdvice animated fadeInLeft">
-				<p>Potrzebujesz porady ?</p>
+			<article class="topSlang text-center">
+				<p>Potrzebujesz prawnika ?</p>
+				<p>Dobrze trafiłeś !</p>
+				<p>Zapewniamy kompleksową obsługę prawną</p>
+				<a class="btn" href="">Zobacz ofertę</a>
+			</article>
+			<article class="topAdvice">
+				<p class="topAdviceContent">Potrzebujesz porady ?</p>
 				<!-- Large modal -->
-				<button type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-lg"><p>Zobacz</p></button>
+				<button type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-lg"><p class="topAdviceBtn">Zobacz</p></button>
 
 				<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 				  <div class="modal-dialog modal-lg">

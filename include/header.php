@@ -4,16 +4,16 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Kancelaria Prawna Radnca Prawna Marlena Żurawska</title>
+		<title>Kancelaria Prawna Radca Prawna Marlena Żurawska</title>
 
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/animations.css" type="text/css">
+		<link rel="stylesheet" href="css/animate.css">
 		<link href="css/style.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/custom.css">
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src='js/css3-animate-it.js'></script>
+		
 		<script src="js/button.js"></script>
 		<script src="js/carousel.js"></script>
 		<script src="js/bootstrap-dropdownhover.min.js"></script>
@@ -29,5 +29,7 @@
 		<script src="js/tab.js"></script>
 		<script src="js/tooltip.js"></script>
 		<script src="js/transition.js"></script>
+		<script src="js/wow.js"></script>
+		<script src="js/custom.js"></script>
 	</head>
 	<body>

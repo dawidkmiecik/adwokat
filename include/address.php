@@ -47,9 +47,25 @@
 
 				<div class="col-md-12">
 					<h5 class="mapText">Znajdz nas</h5>
-
 				</div>
 			</div>
 		</div>
 	</section>
 	<iframe class="mapBorder" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.3393261095434!2d16.87381131537449!3d51.15753334404486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f9538b05dc595%3A0x644ecf72b8d07cb7!2s%C5%BBurawska+Marlena.+Kancelaria+prawna!5e0!3m2!1spl!2spl!4v1450557833114" width="100%" height="300" frameborder="0"  allowfullscreen></iframe>
+		<section class="footerByColorAddress">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p><a class="footerBy" href="http://feniksdesign.pl/">Copyright 2015 by Feniks Design.</a></p>
+						<a href=""></a>
+					</div>
+					<div class="col-md-6 pull-right">
+						<a href="https://plus.google.com/u/0/107086295791785063741/posts"><img class="footerBySocial pull-right" src="img/google.png" alt=""></a>
+						<a href="https://www.facebook.com/FeniksDesignPoznan"><img class="footerBySocial pull-right" src="img/facebook.png" alt=""></a>
+
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</section>
+	</body>
+</html>
