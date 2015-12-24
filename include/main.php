@@ -56,7 +56,7 @@
 				<div class="col-md-4">
 					<article class="thumbnail text-center">
 							<div class="dupa2 dupa5 text-center" style="background-color: #EA2E0;">
-						<i class="fa fa-home fa-2x  text-center"></i>
+						<i class="fa fa-home fad fa-2x  text-center"></i>
 					</div>
 						<header class="caption">
 							<h3>Thumbnail label</h3>
@@ -68,10 +68,10 @@
 			</div><!-- row -->
 		</main>
 		<div class="container">
-			<div class="row offer">
+			<div class="row offerBad">
 				<div class="col-md-4">
 					<div class="dupa2 pull-left">
-						<i class="fa fa-balance-scale fa-2x"></i>
+						<i class="fa fad fa-balance-scale fad fa-2x"></i>
 					</div>
 					
 					<h3 class="pull-left dupa">Prawo karne</h3>
@@ -82,7 +82,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="dupa2 dupa3 pull-left" style="background-color: #EA2E0;">
-						<i class="fa fa-university fa-2x"></i>
+						<i class="fa fa-university fad fa-2x"></i>
 					</div>
 					
 					<h3 class="pull-left dupa">Prawo gospodarcze</h3>
@@ -93,7 +93,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="dupa2 dupa3 pull-left" style="background-color: #EA2E0;">
-						<i class="fa fa-home fa-2x"></i>
+						<i class="fa fa-home fad fa-2x"></i>
 					</div>
 					
 					<h3 class="pull-left dupa">Prawo kanoniczne</h3>
@@ -106,7 +106,7 @@
 			<div class="row">
 				<div class="col-md-4">
 										<div class="dupa2 dupa3 pull-left" style="background-color: #EA2E0;">
-						<i class="fa fa-home fa-2x"></i>
+						<i class="fa fa-home fad fa-2x"></i>
 					</div>
 					
 					<h3 class="pull-left dupa">Prawo kanoniczne</h3>
@@ -117,7 +117,7 @@
 				</div>
 				<div class="col-md-4">
 										<div class="dupa2 dupa3 pull-left" style="background-color: #EA2E0;">
-						<i class="fa fa-home fa-2x"></i>
+						<i class="fa fa-home fad fa-2x"></i>
 					</div>
 					
 					<h3 class="pull-left dupa">Prawo kanoniczne</h3>
@@ -128,7 +128,7 @@
 				</div>
 				<div class="col-md-4">
 										<div class="dupa2 pull-left" style="background-color: #EA2E0;">
-						<i class="fa fa-home fa-2x"></i>
+						<i class="fa fa-home fad fa-2x"></i>
 					</div>
 					
 					<h3 class="pull-left dupa">Prawo kanoniczne</h3>
